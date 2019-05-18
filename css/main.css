@@ -117,7 +117,7 @@ html, body#home, div.container-fluid, div.row, div.col {
   z-index: 1;
 }
 
-h3 {
+h1, h3 {
   font-weight: normal;
 }
 
