@@ -172,7 +172,7 @@ a.btn:hover {
 
 /* Required for full background image */
 .view {
-  height: 445px;
+  height: 380px;
 }
 .rgba-gradient {
 /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#373435+0,373435+50,373435+50,ffffff+50,ffffff+51,606062+51 */
@@ -261,6 +261,9 @@ iframe {
   #imagem-quem-somos {
     height: 406px;
   }
+  #imagem-quem-somos-revestimentos {
+    height: 415px;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -275,6 +278,9 @@ iframe {
   }
   #imagem-quem-somos {
     height: 368px;
+  }
+  #imagem-quem-somos-revestimentos {
+    height: 348px;
   }
 }
 
