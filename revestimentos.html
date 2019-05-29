@@ -33,7 +33,7 @@
                 <a class="nav-link" href="#produtos">Produtos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#parceiros">Parceiros</a>
+                <a class="nav-link" href="#parceiros">Seja Nosso Parceiros</a>
               </li>
             </ul>
             <ul class="navbar-nav nav-flex-icons">
@@ -60,8 +60,7 @@
                 <h1 class="h1-responsive mt-sm-5 text-white">Inovação e tendências em revestimentos e acabamentos</h1>
                 <hr class="hr-light">
                 <h6 class="mb-4 text-white">Buscamos oferecer soluções para arquitetura que agreguem inovação e tecnologia, para superar as expectativas dos nossos clientes e parceiros.</h6>
-                <a href="#contatos" class="btn btn-light">Solicite seu orçamento</a>
-                <a href="#parceiros" class="btn btn-link">Seja Parceiro</a>
+                <a href="#parceiros" class="btn btn-light">Seja Nosso Parceiro</a>
               </div>
               <!--Grid column-->
               <!--Grid column-->
@@ -127,7 +126,7 @@
       <!-- Card -->
       <div class="card card-cascade narrower card-ecommerce">
         <!-- Card image -->
-        <div class="view view-cascade overlay">
+        <div class="view-cascade overlay">
           <img src="https://s3-sa-east-1.amazonaws.com/portosite/wp-content/uploads/2018/03/05091734/Marmi-Statu%C3%A1rio-Split-White-SG-60x120-e-Marmo-Marfil-SG-70x70-copy.jpg" class="card-img-top"
             alt="sample photo">
           <a>
@@ -153,7 +152,7 @@
       <!-- Card -->
       <div class="card card-cascade narrower card-ecommerce">
         <!-- Card image -->
-        <div class="view view-cascade overlay">
+        <div class="view-cascade overlay">
           <img src="https://www.portodesign.com.br/wp-content/themes/portodesign/images/thumb-acessorios.jpg" class="card-img-top"
             alt="sample photo">
           <a>
@@ -179,7 +178,7 @@
       <!-- Card -->
       <div class="card card-cascade narrower card-ecommerce">
         <!-- Card image -->
-        <div class="view view-cascade overlay">
+        <div class="view-cascade overlay">
           <img src="https://www.portodesign.com.br/wp-content/themes/portodesign/images/thumb-decor.jpg" class="card-img-top"
             alt="sample photo">
           <a>
@@ -211,8 +210,8 @@
       <!-- Card -->
       <div class="card card-cascade narrower card-ecommerce">
         <!-- Card image -->
-        <div class="view view-cascade overlay">
-          <img src="https://s3-sa-east-1.amazonaws.com/portosite/wp-content/uploads/2018/06/19132555/produto-smart.jpg" class="card-img-top" alt="Pisos Vinílicos e rodapé">
+        <div class="view-cascade overlay">
+          <img src="img/produto/piso.jpg" class="card-img-top" alt="Pisos Vinílicos e rodapé">
           <a>
             <div class="mask rgba-white-slight"></div>
           </a>
@@ -236,7 +235,7 @@
       <!-- Card -->
       <div class="card card-cascade narrower card-ecommerce">
         <!-- Card image -->
-        <div class="view view-cascade overlay">
+        <div class="view-cascade overlay">
           <img src="img/produto/cortina.jpg" class="card-img-top"
             alt="sample photo">
           <a>
@@ -262,8 +261,8 @@
       <!-- Card -->
       <div class="card card-cascade narrower card-ecommerce">
         <!-- Card image -->
-        <div class="view view-cascade overlay">
-          <img src="https://static.wixstatic.com/media/3ce5df_bdee237f57a7486f99f9cbff618bd11c.jpg/v1/fill/w_535,h_295,al_c,q_80,usm_0.66_1.00_0.01/3ce5df_bdee237f57a7486f99f9cbff618bd11c.jpg" class="card-img-top"
+        <div class="view-cascade overlay">
+          <img src="img/produto/cobogo.jpg" class="card-img-top"
             alt="sample photo">
           <a>
             <div class="mask rgba-white-slight"></div>
@@ -273,7 +272,7 @@
         <!-- Card content -->
         <div class="card-body card-body-cascade text-center">
           <!-- Category & Title -->
-          <h4>Cobogós</h4>
+          <h4>Cobogó</h4>
           <!-- Description
           <p class="card-text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit.</p> -->
         </div>
@@ -295,7 +294,7 @@
     <!--Clientes-->
     <div id="parceiros" class="container">
       <!-- Section heading -->
-      <h2 class="h1-responsive font-weight-bold text-center my-4">Seja Parceiro</h2>
+      <h2 class="h1-responsive font-weight-bold text-center my-4">Seja Nosso Parceiro</h2>
       <!-- Section description -->
       <p class="lead grey-text text-center w-responsive mx-auto mb-5">Acesso o link abaixo e conheça mais sobre nossa empresa e proposta comercial</p>
       <div class="text-center">
@@ -335,7 +334,7 @@
     <script>
       $(document).ready(function(){
         // Add scrollspy to <body>
-        $('body').scrollspy({target: ".navbar", offset: 50});   
+        $('body').scrollspy({target: ".navbar"});   
       
         // Add smooth scrolling on all links inside the navbar
         $("#navbarSupportedContent a, #navQuemSomos a").on('click', function(event) {
@@ -351,7 +350,7 @@
             // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
             $('html, body').animate({
               scrollTop: $(hash).offset().top
-            }, 800, function(){
+            }, 500, function(){
          
               // Add hash (#) to URL when done scrolling (default click behavior)
               window.location.hash = hash;
