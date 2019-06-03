@@ -170,10 +170,10 @@ a.btn:hover {
     color: #393738;
 }
 
-/* Required for full background image */
+/* Required for full background image
 .view {
   height: 380px;
-}
+} */
 .rgba-gradient {
 /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#373435+0,373435+50,373435+50,ffffff+50,ffffff+51,606062+51 */
 background: #373435; /* Old browsers */
