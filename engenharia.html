@@ -27,7 +27,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#quem-somos">Home</a>
               </li>
               <!--<li class="nav-item">
                 <a class="nav-link" href="#quem-somos">Quem somos</a>
@@ -74,7 +74,7 @@
               <div class="col-md-9 col-lg-6 col-xl-7 white-text text-center text-md-left mt-4 mb-5 wow fadeInLeft" data-wow-delay="0.3s">
                 <h1 class="h1-responsive mt-sm-5 text-white">Soluções em reformas e construção civil</h1>
                 <hr class="hr-light">
-                <h6 class="mb-4 text-white">A Premier Engenharia se destaca em obras de pequeno e médio porte. Somos uma empresa com soluções em objetivas, atuando com planejamento e inovação, a fim de atender o mais alto nível de satisfação de nossos parceiros e clientes.</h6>
+                <h6 class="mb-4 text-white">A Premier Engenharia se destaca em obras de pequeno e médio porte. Somos uma empresa com soluções objetivas, atuando com planejamento e inovação, a fim de atender o mais alto nível de satisfação de nossos parceiros e clientes.</h6>
                 <a href="#contatos" class="btn btn-light">Solicite seu orçamento</a>
                 <a href="#servicos" class="btn btn-link">Saiba mais</a>
               </div>
@@ -397,12 +397,8 @@
             // Using jQuery's animate() method to add smooth page scroll
             // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
             $('html, body').animate({
-              scrollTop: $(hash).offset().top
-            }, 800, function(){
-         
-              // Add hash (#) to URL when done scrolling (default click behavior)
-              window.location.hash = hash;
-            });
+              scrollTop: $(hash).offset().top - 100
+            }, 800);
           }  // End if
         });
       });
